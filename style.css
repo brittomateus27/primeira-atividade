@@ -1,5 +1,9 @@
 body{
   background-color: #38ada9;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: inherit;
 }
 .intro{
   color: white;
@@ -10,4 +14,12 @@ body{
   border-radius: 50%;
   max-width: 15%;
   max-height: 15%;
+}
+.lista-linha{
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista-linha li{
+  display: inline-block;
 }
